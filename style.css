@@ -40,6 +40,18 @@ img {
   min-height: 10px;
   min-width: 10px;
 }
+li[class="img img-1"] {
+  background-image: url(./assets/product1.jpeg);
+  background-size: cover;
+}
+li[class="img img-2"] {
+  background-image: url(./assets/product2.jpeg);
+  background-size: cover;
+}
+li[class="img img-3"] {
+  background-image: url(./assets/product3.jpeg);
+  background-size: cover;
+}
 .layout {
   display: flex;
   justify-content: flex-end;
@@ -77,6 +89,8 @@ img {
   height: 120px;
 }
 .principal-img {
+  background-image: url(./assets/product1.jpeg);
+  background-size: cover;
   height: 300px !important;
 }
 .logo {
